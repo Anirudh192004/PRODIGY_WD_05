@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+	padding:0;
+	margin:0;
+	background-color: #253D2C;
+}
+.main h3{
+	color:#CFFFDC;
+	font-family: "Press Start 2P";
+
+}
+.main2 h3{
+	color: #CFFFDC;
+	font-family: "Savate";
+}
+.nav{
+	position: relative;
+	max-width:87rem;
+	width:100%;
+	padding:2rem;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.contain {
+  max-width: 500px;
+  height: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #2E6F40;
+}
+input, button {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#CFFFDC;
+  color: black;
+  transition: 0.5s;
+}
+button:hover{
+	background-color: black;
+	color:white;
+}
+p{
+	color:white;
+	font-size: 2em;
+}
+.weather-info {
+  margin-top: 15px;
+  background-color: #253D2C;
+}
+#weatherIcon {
+  width: 300px;
+  height: 300px;
+  background-color: #253D2C;
+}
